@@ -353,7 +353,7 @@
 }
 
 .careerfy-featured-listing-text {
-    padding: 11px 19px 3px 19px;
+    padding: 22px 22px 13px 22px;
 }
 
 .careerfy-option-btn.careerfy-blue {
@@ -376,11 +376,12 @@
 }
 
 .careerfy-featured-listing-text h2 {
-    font-size: 13px;
+    font-size: 15px;
     display: inline-block;
     width: 90%;
     letter-spacing: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
 }
 
 .careerfy-like-list {
@@ -1308,12 +1309,12 @@
 .careerfy-jobdetail-services i {
     font-size: 32px;
     color: #243a4b;
-    float: left;
+    float: right;
     padding-top: 10px;
 }
 
 .careerfy-jobdetail-services .careerfy-services-text {
-    padding-left: 53px;
+    padding-right: 53px;
     color: #666666;
 }
 
@@ -1330,9 +1331,11 @@
 }
 
 .careerfy-description p {
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 0px;
-    font-weight: 300;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.65;
 }
 
 .careerfy-list-style-icon {
@@ -3387,7 +3390,7 @@ ul li:hover .careerfy-employer-grid-btn {
 .careerfy-candidate-default-wrap,
 .careerfy-candidate-default figure a,
 .careerfy-candidate-default figure img {
-    float: left;
+    float: right;
     width: 100%;
 }
 
