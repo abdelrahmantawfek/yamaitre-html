@@ -892,6 +892,7 @@ address {
     width: 1px;
     height: 20px;
     background-color: #e5e5e5;
+    display: none;
 }
 
 .careerfy-user-section li:first-child:before {
@@ -3233,7 +3234,7 @@ li:hover .careerfy-read-more {
 
 .articles-section .careerfy-read-more {
     max-width: 100px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 11px;
     margin: 15px auto 5px;
     display: block;
@@ -4288,11 +4289,12 @@ div.careerfy-prenxt-post {
 }
 
 .widget_jobdetail_three_apply_wrap img {
-    width: 150px;
+    width: 130px;
     margin-bottom: 25px !important;
     border-radius: 100%;
     margin: auto;
     display: block;
+    border: 4px solid #dcb76b;
 }
 
 .careerfy-section-title h2 {
@@ -4314,11 +4316,11 @@ div.careerfy-prenxt-post {
 }
 
 .widget_jobdetail_three_apply_wrap p {
-    font-size: 13.5px;
+    font-size: 13px;
     margin-bottom: 0px;
     font-weight: normal;
     color: #333;
-    line-height: 1.65;
+    line-height: 1.55;
     margin-top: 15px;
 }
 
@@ -4432,4 +4434,1037 @@ marquee {
     font-weight: 300;
     color: #ffffff;
     margin-bottom: 0px;
+}
+
+.jobsearch-usernotifics-menubtn a i {
+    font-size: 20px;
+    position: relative;
+    color: #707070;
+}
+
+.jobsearch-usernotifics-menubtn a span {
+    position: absolute;
+    right: -6px;
+    top: -10px;
+    min-width: 15px;
+    height: 15px;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 11px;
+    background-color: #dcb76b;
+}
+
+.careerfy-user-section>li:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 1px;
+    height: 20px;
+    background-color: #e5e5e5;
+}
+
+.careerfy-user-section ul.nav-item-children {
+    background-color: #fff;
+    left: 0;
+    margin: 0;
+    padding: 0 20px;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    width: 200px;
+    z-index: 999;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.careerfy-user-section li.menu-item-type-custom a {
+    text-transform: uppercase;
+    color: #243a4b;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.careerfy-user-section ul.nav-item-children>li>a:hover {
+    color: #243a4b;
+}
+
+.last-menu-item .careerfy-simple-btn {
+    margin: 0 0 0;
+    padding: 5px 13px 4px;
+    color: #fff !important
+}
+
+.hdernotifics-title-con {
+    float: left;
+    width: 100%;
+    background-color: #f8f9fc;
+    text-transform: uppercase;
+    padding: 15px 16px;
+}
+
+.hder-notifics-title {
+    display: inline-block;
+    font-weight: 600;
+    color: #333;
+}
+
+.jobsearch-hdernotifics-listitms:before {
+    content: '';
+    position: absolute;
+    left: 13px;
+    top: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f8f9fc;
+    z-index: 2;
+}
+
+.jobsearch-hdernotifics-listitms:after {
+    content: '';
+    position: absolute;
+    left: 13px;
+    top: -11px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ddd;
+    z-index: 0;
+}
+
+.hdernotifics-title-con,
+.jobsearch-hdrnotifics-list,
+.hdernotifics-after-con {
+    float: left;
+    width: 100%;
+    background-color: #f8f9fc;
+    text-transform: uppercase;
+    padding: 15px 16px;
+}
+
+.hder-notifics-title {
+    display: inline-block;
+    font-weight: 600;
+    color: #333;
+    margin-right: 5px;
+}
+
+.hder-notifics-count {
+    float: right;
+    border: 1px solid;
+    border-radius: 80px;
+    padding: 2px 7px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 11px;
+    margin: 7px 0 0;
+}
+
+span.hder-notifics-nofound {
+    padding: 10px 0 10px 17px;
+    float: left;
+    width: 100%;
+}
+
+.notificate-item-inner {
+    font-size: 11px;
+    text-transform: none
+}
+
+.careerfy-user-section ul.nav-item-children>li {
+    float: left;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.careerfy-user-section ul.nav-item-children>li>a {
+    border-bottom: 1px solid #f2f2f2;
+    color: #656c6c;
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 5px 0;
+    width: 100%;
+    position: relative;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    text-transform: none
+}
+
+.jobsearch-userdash-menumain .elementor-nav-menu--dropdown a {
+    justify-content: flex-start;
+}
+
+.jobsearch-userdash-menumain .elementor-nav-menu--dropdown a i {
+    margin-right: 10px;
+}
+
+.jobsearch-hdernotifics-listitms {
+    position: absolute;
+    left: 0;
+    top: 110%;
+    width: 320px;
+    background-color: #fff;
+    text-align: right;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .18);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+span.notific-item-datetime {
+    float: left;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.jobsearch-usernotifics-menubtn .jobsearch-notification-item {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #dfe0e3;
+    padding: 6px 0;
+}
+
+.hder-notifics-title {
+    display: inline-block;
+    font-weight: 600;
+    color: #333;
+}
+
+.hder-notifics-count {
+    float: left;
+    border: 1px solid;
+    border-radius: 80px;
+    padding: 2px 7px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 11px;
+    margin: 7px 0 0;
+}
+
+.careerfy-employer-dashboard-nav.widget_jobdetail_three_apply_wrap ul {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.careerfy-blog .careerfy-candidate-view4 h2 {
+    font-size: 16px !important;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+.articles-section .careerfy-blog .careerfy-read-more {
+    float: right;
+}
+
+.edit-panel {
+    position: absolute;
+    z-index: 999;
+    left: 15px;
+    top: 18px;
+}
+
+.edit-panel button {
+    padding: 0px 10px;
+    background: #dcb76b;
+    color: #fff;
+}
+
+.add-new input {
+    padding: 10px;
+    height: 46px;
+    font-size: 13px;
+}
+
+.upload__box {
+    padding: 20px 0 20px 20px;
+}
+
+.upload__inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.upload__btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    min-width: 116px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid;
+    background-color: #0c4e8c;
+    border-color: #0c4e8c;
+    border-radius: 6px;
+    line-height: 26px;
+    font-size: 13px;
+    padding: 5px 20px;
+}
+
+.upload__btn:hover {
+    background-color: #243a4b;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.upload__btn-box {
+    margin-bottom: 10px;
+}
+
+.upload__img-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.upload__img-box {
+    width: 200px;
+    padding: 0 10px;
+    margin-bottom: 12px;
+}
+
+.upload__img-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.upload__img-close:after {
+    content: "✖";
+    font-size: 14px;
+    color: white;
+}
+
+.img-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.ck.ck-content.ck-editor__editable {
+    min-height: 300px !important;
+    text-align: right !important;
+}
+
+.closeBox {
+    font-size: 60px;
+    font-weight: 900;
+    color: #dcb76b;
+    /* change color of close icon */
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+
+/* hovering effects for the close button */
+
+.closeBox:hover,
+.closeBox:focus {
+    color: #dcb76b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* styling the box container for the lightbox */
+
+#lightBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: none;
+    direction: ltr;
+    background: rgba(0, 0, 0, .75);
+}
+
+
+/* formats the numbers of the current slide */
+
+.lightCurrent {
+    color: white;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-family: Georgia;
+    width: 60px;
+    height: 40px;
+    background-color: #dcb76b;
+    /* change color of box container to match site colors */
+    border: 1px solid #dcb76b;
+}
+
+.lightImgL {
+    position: relative;
+    background-color: #dcb76b;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+
+/* styling the large image in the lightbox, displaying as the main image */
+
+.largeLightImgTop {
+    width: 100%;
+}
+
+
+/* styling the large image in the lightbox, as the bottom thumbnails */
+
+.largeLightImgThumb {
+    cursor: pointer;
+    float: left;
+    width: 25%;
+}
+
+
+/* styling the next and previous buttons */
+
+.prevBtn,
+.nextBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #dcb76b;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 1;
+}
+
+
+/* next button goes to the right so it doesn't sit on top of the previous button */
+
+.nextBtn {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.lightCol {
+    float: right;
+    width: 25%;
+    cursor: pointer;
+}
+
+
+/* bar underneath image gallery before lightbox is clicked */
+
+.lightCaptionSmall {
+    /* caption under the lightbox gallery (before it's opened) */
+    font-size: 16px;
+    text-align: center;
+    background-color: #dcb76b;
+    padding: 5px;
+    color: white;
+}
+
+.lightRow>.lightCol {
+    padding: 0 8px;
+}
+
+.lightRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Captions {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.post-images {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.articles-section #exTab1 .tab-content {
+    padding: 30px 20px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px 25px !important;
+}
+
+#jobsearch-chat-container {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.jobsearch-chat-main-container,
+.jobsearch-typo-wrap .jobsearch-chat-main-container {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08);
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.jobsearch-profile-title.jobsearch-chat-heading {
+    margin-bottom: 0px;
+    border: none;
+}
+
+#jobsearch-chat-container aside {
+    width: 33%;
+    min-height: 890px;
+    max-height: 700px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ececec;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav {
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+#jobsearch-chat-container ul {
+    margin: 0px;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li {
+    float: left;
+    list-style: none;
+    padding: 0px 17px;
+    line-height: 1.5;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    padding: 13px 0px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li.active a {
+    color: #13b5ea;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li a:hover {
+    color: #13b5ea;
+    background-color: transparent;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li {
+    float: left;
+    list-style: none;
+    padding: 0px 17px;
+    line-height: 1.5;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    padding: 13px 0px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li:hover a::before,
+#jobsearch-chat-container .jobsearch-chat-nav li.active a::before {
+    opacity: 1;
+    bottom: 0px;
+}
+
+#jobsearch-chat-container .jobsearch-chat-nav li a::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 100%;
+    height: 3px;
+    background-color: #13b5ea;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.jobsearch-chat-users-list.jobsearch-chat-user-employer {
+    display: inline-block;
+    width: 100%;
+    height: 794px;
+}
+
+#jobsearch-chat-container ul {
+    margin: 0px;
+}
+
+.jobsearch-chat-users-list li:hover,
+.jobsearch-chat-users-list li.active {
+    background-color: #f7f7f7;
+}
+
+.jobsearch-chat-users-list img {
+    border-radius: 50%;
+    width: 39px;
+    float: right;
+    margin-top: 8px;
+}
+
+#jobsearch-chat-container .orange {
+    background-color: #ff725d;
+}
+
+.jobsearch-chat-users-list li span.status-with-thumb {
+    right: 14px;
+    position: absolute;
+    top: 20px;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #fff;
+}
+
+.jobsearch-chat-users-list li div {
+    vertical-align: top;
+    margin: 5px 50px 0px 10px;
+}
+
+.jobsearch-chat-users-list li h2 {
+    font-size: 13px;
+    color: #404040;
+    font-weight: normal;
+    margin-bottom: 7px;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+
+.jobsearch-chat-users-list li h2 small {
+    float: right;
+    font-size: 11px;
+    color: #666666;
+    margin: 2px 0px 0px 0px;
+}
+
+.jobsearch-chat-users-list li p {
+    font-size: 11px;
+    color: #999999;
+    font-weight: normal;
+    line-height: 1.3;
+    position: relative;
+}
+
+.jobsearch-chat-users-list li {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    padding: 14px 15px;
+    position: relative;
+    border-bottom: 1px solid #ececec;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    list-style: none
+}
+
+.jobsearch-typo-wrap li {
+    line-height: 28px;
+}
+
+.jobsearch-chat-users-list .status {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.jobsearch-chat-sort-list .careerfy-employer-search {
+    float: none;
+    width: 94%;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px
+}
+
+.jobsearch-chat-sort-list .careerfy-employer-search input[type="text"] {
+    float: none
+}
+
+.jobsearch-chat-sort-list .jobsearch-chat-filter-input-field {
+    margin-right: 6%
+}
+
+.jobsearch-chat-sort-list .careerfy-employer-search i {
+    position: absolute;
+    left: 10px;
+    right: unset;
+    top: 20px;
+    z-index: 1;
+    color: #bbc4c9;
+}
+
+#jobsearch-chat-container .green {
+    background-color: #58b666;
+}
+
+#jobsearch-chat-container .orange {
+    background-color: #ff725d;
+}
+
+#jobsearch-chat-container .blue {
+    background-color: #6fbced;
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+#jobsearch-chat-container .jobsearch-user-chat-content {
+    display: inline-block;
+    min-height: 890px;
+    max-height: 700px;
+    vertical-align: top;
+    position: relative;
+    width: 66%;
+    border: 1px solid #efefef;
+    border-left-color: rgb(239, 239, 239);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left: none;
+}
+
+.jobsearch-user-chat-header,
+.jobsearch-typo-wrap .jobsearch-user-chat-header {
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ececec;
+    position: relative;
+    padding: 15px;
+}
+
+.jobsearch-user-detail {
+    float: right;
+    position: relative;
+}
+
+.jobsearch-user-chat-header img {
+    float: right;
+    width: 39px;
+    border-radius: 100%;
+}
+
+.jobsearch-user-status-wrapper,
+.jobsearch-typo-wrap .jobsearch-user-status-wrapper {
+    margin-right: 50px;
+    line-height: 1;
+    padding-top: 4px;
+}
+
+.jobsearch-user-detail .status {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 13px;
+    height: 13px;
+    border: 2px solid #fff;
+    background-color: #58b666;
+    border-radius: 100%;
+}
+
+.jobsearch-user-status-wrapper h2,
+.jobsearch-typo-wrap .jobsearch-user-status-wrapper h2 {
+    color: #404040;
+    margin-bottom: 1px;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.jobsearch-user-status-wrapper span {
+    color: #999999;
+    font-size: 11px;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 744px;
+    background: url("images/chat-pattren.jpg");
+    padding-bottom: 25px;
+    overflow-y: scroll
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list::-webkit-scrollbar {
+    width: 8px !important;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list::-webkit-scrollbar-track {
+    background: #0c4e8c !important;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list::-webkit-scrollbar-thumb {
+    background: #1161ac !important;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list::-webkit-scrollbar-thumb:hover {
+    background: #0b81e3 !important;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list li {
+    padding: 10px 30px 0px 30px;
+    position: relative;
+    list-style: none;
+}
+
+.jobsearch-chat-messages-list li>img {
+    display: inline-block;
+    width: 7%;
+    border-radius: 100%;
+    vertical-align: bottom;
+    margin-left: -4px;
+    margin-bottom: 29px;
+    height: auto
+}
+
+.jobsearch-chat-entete-wrapper,
+.jobsearch-typo-wrap .jobsearch-chat-entete-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 93%;
+    padding-right: 19px;
+}
+
+.jobsearch-chat-messages-list p {
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 0px;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 15px 0 15px 15px;
+    position: relative;
+    line-height: 1.5
+}
+
+.jobsearch-chat-messages-list p::before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-bottom: 10px solid #ffffff;
+    border-right: 10px solid transparent;
+    z-index: 2;
+    transform: rotateY(180deg);
+}
+
+.jobsearch-chat-messages-list p::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    border-bottom: 12px solid #e6e6e6;
+    border-right: 12px solid transparent;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list .jobsearch-chat-entete {
+    line-height: 1.5;
+    padding-left: 17px;
+    margin-top: 5px;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list h3 {
+    margin-bottom: 0px;
+    color: #666666;
+    font-size: 11px;
+}
+
+#jobsearch-chat-container .jobsearch-chat-messages-list h2,
+#jobsearch-chat-container .jobsearch-chat-messages-list h3 {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.jobsearch-chat-entete a {
+    display: inline-block;
+    font-size: 11px;
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: #13b5ea;
+    display: none;
+}
+
+.jobsearch-user-chat-content .jobsearch-chat-form-wrapper {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.jobsearch-user-chat-content .jobsearch-chat-form-wrapper textarea {
+    resize: none;
+    border: none;
+    float: right;
+    width: 100%;
+    height: 74px;
+    border-radius: 3px;
+    padding: 29px 30px 0px 130px;
+    font-size: 13px;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.jobsearch-chat-share-file-wrapper {
+    position: absolute;
+    left: 0px;
+    top: 16px;
+}
+
+.jobsearch-chat-share-file {
+    float: right;
+}
+
+.jobsearch-chat-share-file a {
+    float: left;
+    font-size: 20px;
+    color: #9b9b9b;
+    margin: 10px 0px 0px 10px;
+}
+
+.jobsearch-chat-share-file a {
+    float: left;
+    font-size: 20px;
+    color: #9b9b9b;
+    margin: 10px 0px 0px 10px;
+}
+
+.jobsearch-chat-typing-wrapper input[type="submit"] {
+    display: inline-block;
+    padding: 9px 20px;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-right: 5px;
+    border: none;
+    background-color: #ddba71;
+}
+
+.jobsearch-typo-wrap button,
+.jobsearch-typo-wrap input[type="button"],
+.jobsearch-typo-wrap input[type="submit"],
+.other-lang-translate-post {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.jobsearch-chat-typing-wrapper {
+    float: right;
+}
+
+.notify-ul {
+    list-style-type: none;
+}
+
+.notify-ul li {
+    display: block;
+    margin-bottom: 10px;
+    clear: both;
+}
+
+.notfy.jobsearch-rem-empresmue {
+    position: unset;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #fb353f;
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: 200;
+    display: block;
+    margin-top: 12px;
+    margin-right: 10px;
 }

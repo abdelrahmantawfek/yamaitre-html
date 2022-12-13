@@ -54,6 +54,10 @@
      color: #243a4b;
  }
  
+ .widget_nav_manu ul li:hover a {
+     color: #dbb66a;
+ }
+ 
  .careerfy-bgcolor,
  .careerfy-bgcolorhover:hover,
  .navbar-nav>li>a:before,

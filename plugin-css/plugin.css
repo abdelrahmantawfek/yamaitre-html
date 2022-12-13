@@ -2170,7 +2170,7 @@ ul li:hover .careerfy-employer-grid-btn {
 
 .careerfy-employer-dashboard-nav {
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08);
-    padding: 30px 0px 0px 0px;
+    padding: 30px 20px;
     margin-bottom: 50px;
 }
 
@@ -2262,10 +2262,10 @@ ul li:hover .careerfy-employer-grid-btn {
 }
 
 .careerfy-employer-dashboard-nav ul li a {
-    padding: 14px 24px;
+    padding: 14px;
     line-height: 1;
     color: #333333;
-    font-size: 14px;
+    font-size: 13px;
     border-bottom: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
     -webkit-transition: all 0.4s ease-in-out;
@@ -2323,13 +2323,20 @@ ul li:hover .careerfy-employer-grid-btn {
 
 .careerfy-profile-title h2 {
     margin-top: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     line-height: 1;
-    font-size: 20px;
+    font-size: 18px;
     color: #243a4b;
     font-weight: 400;
-    float: left;
+    float: right;
     letter-spacing: 0;
+}
+
+.careerfy-profile-title .careerfy-static-btn {
+    float: left;
+    margin-top: 0;
+    padding: 12px 30px;
+    margin-bottom: 0;
 }
 
 .careerfy-employer-profile-form li {
